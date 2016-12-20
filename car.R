@@ -31,3 +31,17 @@ car <- function(model, mpg, cost){
 mpg_per_dollar <- function(obj) {
   return(obj$mpg / obj$cost)
 }
+
+
+## My test for Kai's implementation (I had written this earlier, just pasted
+## it in this file after he completed the implementation):
+test <- function(){
+  my_car <- car("mercedes", 10, 50000)
+  return(mpg_per_dollar(my_car) == 0.0002)
+}
+
+if(test()) {
+  print("test passed")
+}else{
+  print("test failed")
+}
