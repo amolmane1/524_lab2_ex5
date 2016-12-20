@@ -7,4 +7,4 @@ Refer to [car.R](car.R) for documentation (tried using devtools::document() but 
 UPDATE:
 Kai wrote the implementation and I added my tests to check if his code worked. And it did. To check for yourself, open the file: [car.R](car.R).
 
-I've also included the implementation I wrote for Kai's documentation in [snow.R](snow.R).
+I've also included the implementation I wrote for Kai's documentation in [kai.R](kai.R).
